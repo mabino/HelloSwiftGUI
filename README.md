@@ -2,12 +2,14 @@
 
 Build and run a macOS graphical application using SwiftUI and only the Swift Command Line Interface (CLI), without requiring Xcode's project files.
 
+```
 HelloSwiftGUI/
 ├── Package.swift    <-- Package Manifest
 └── Sources/
     └── HelloSwiftGUI/
         ├── ContentView.swift      <-- The UI definition
         └── HelloSwiftGUIApp.swift <-- The application entry point (@main)
+```
 
 The Package Manifest is the configuration file for the Swift Package Manager (SPM).  It defines the package, sets platform requirements (like minimum OS), define what the package produces (e.g., an executable), and lists dependencies.  The configuration tells the compiler how to compile the source code and link any necessary frameworks.
 
