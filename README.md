@@ -1,4 +1,4 @@
-# Swift CLI SwiftUI GUI Application (Bare-Bones)
+# SwiftUI GUI Application (Bare-Bones)
 
 Build and run a macOS graphical application using SwiftUI and only the Swift Command Line Interface (CLI), without requiring Xcode's project files.
 
